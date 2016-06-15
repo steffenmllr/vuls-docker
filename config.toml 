@@ -1,0 +1,5 @@
+[servers]
+
+[servers.X-X-X-X]
+host = "X.X.X.X"
+keyPath = "/app/id_rsa"

@@ -6,5 +6,4 @@ WORKDIR /app
 RUN go get github.com/kotakanbe/go-cve-dictionary
 RUN go get github.com/future-architect/vuls
 ADD run.sh /app/run.sh
-RUN go-cve-dictionary fetchnvd -last2y
 ENTRYPOINT ["/bin/bash", "/app/run.sh"]
